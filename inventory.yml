@@ -1,0 +1,6 @@
+hrms:
+  hosts:
+    worker1:
+      ansible_host: csvobao@172.29.10.123
+    worker2:
+      ansible_host: csvobao@172.29.6.250

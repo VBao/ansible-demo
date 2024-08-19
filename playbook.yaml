@@ -1,0 +1,10 @@
+- name: My first play
+  hosts: hrms
+  tasks:
+    - name: Ping my hosts
+      ansible.builtin.ping:
+        data: hello there
+
+    - name: Debuging
+      ansible.builtin.debug:
+        msg: Just debug
